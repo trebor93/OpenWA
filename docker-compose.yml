@@ -188,4 +188,5 @@ volumes:
 
 networks:
   default:
-    name: openwa-network
+    name: internal-ai
+    external: true
